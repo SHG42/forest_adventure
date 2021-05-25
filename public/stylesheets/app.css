@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: black;
+}
+
+.indexpage {
+    background-image: url("../assets/lightsabers.jpg");
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.index {
+    min-height: 50vh;
+    max-height: 100vh;
+    background: #10957A;
+    background: -webkit-linear-gradient(top left, #10957A, #58FB84);
+    background: -moz-linear-gradient(top left, #10957A, #58FB84);
+    background: linear-gradient(to bottom right, #10957A, #58FB84);
+}
+
+.gamepage {
+    background: #10957A;
+    background: -webkit-linear-gradient(top left, #10957A, #58FB84);
+    background: -moz-linear-gradient(top left, #10957A, #58FB84);
+    background: linear-gradient(to bottom right, #10957A, #58FB84);
+}
