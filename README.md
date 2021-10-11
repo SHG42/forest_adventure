@@ -7,3 +7,5 @@ The original control scheme utilized the spacebar for firing, and would fire a p
 But what if you've been traveling south, and your enemy is positioned to your left? You would need to first move left before you could fire in that direction. Not very user-friendly, especially if an enemy sneaks up on you and you must fire upon it quickly.
 
 My refactoring of the controls untethers projectile direction from player direction: using the WASD keys, the player can navigate the map while firing in any of the four cardinal direction at any time. Enemy sneaking up behind you? No problem.
+
+[Check it out on Heroku](https://forestadventures.herokuapp.com/)
