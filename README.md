@@ -1,5 +1,9 @@
 # forest_adventure
 
+## Local Install Instructions:
+- Run npm install
+- Run npm start
+
 While working through Zenva's Phaser 3 bootcamp, I was dissatisfied with the shooting controls in the top-down RPG unit. I challenged myself to improve on it.
 
 The original control scheme utilized the spacebar for firing, and would fire a projectile in whichever direction the player sprite had last been moving: for instance, if the player had been moving south on the map, pressing the spacebar would then fire a projectile southward. This is fine, if your enemy is right ahead of you.
